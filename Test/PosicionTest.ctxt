@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PosicionTest
+comment0.text=\r\n\ Pruebas\ unitarias\ para\ la\ clase\ link\ Posicion.\r\n\ Verifican\ la\ correcta\ gesti\u00F3n\ de\ coordenadas\ y\ la\ comparaci\u00F3n\ de\ posiciones.\r\n\ Autores\:\ Santiago\ Andres\ Gomez\ Rojas\ y\ Miguel\ Angel\ Sandoval\r\n
+comment1.params=
+comment1.target=void\ debeCrearPosicionConFilaYColumnaIndicadas()
+comment1.text=\r\n\ Verifica\ que\ el\ constructor\ y\ los\ getters\ inicialicen\r\n\ correctamente\ la\ fila\ y\ la\ columna.\r\n
+comment2.params=
+comment2.target=void\ debePermitirActualizarFilaYColumna()
+comment2.text=\r\n\ Verifica\ que\ los\ setters\ actualicen\ correctamente\r\n\ la\ fila\ y\ la\ columna.\r\n
+comment3.params=
+comment3.target=void\ mismaPosicionDebeSerVerdaderoParaCoordenadasIguales()
+comment3.text=\r\n\ Verifica\ que\ dos\ posiciones\ con\ las\ mismas\ coordenadas\r\n\ sean\ consideradas\ iguales\ por\ {@code\ mismaPosicion}.\r\n
+comment4.params=
+comment4.target=void\ mismaPosicionDebeSerFalsoParaCoordenadasDiferentes()
+comment4.text=\r\n\ Verifica\ que\ dos\ posiciones\ distintas\ no\ se\ consideren\ iguales.\r\n
+numComments=5

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=JuegoTest
+comment0.text=\r\n\ Pruebas\ unitarias\ para\ la\ clase\ Juego.\r\n\ Eval\u00FAan\ el\ comportamiento\ de\ pausa,\ avance\ de\ tick\r\n\ y\ el\ reinicio\ de\ nivel.\r\n\ Autores\:\ Santiago\ Andres\ Gomez\ Rojas\ y\ Miguel\ Angel\ Sandoval\r\n
+comment1.params=
+comment1.target=void\ alternarPausaDebeCambiarEstadoDePausa()
+comment1.text=\r\n\ Verifica\ que\ el\ juego\ alterne\ correctamente\ entre\ estados\r\n\ de\ pausa\ y\ ejecuci\u00F3n.\r\n
+comment2.params=
+comment2.target=void\ tickNoDebeActualizarNivelCuandoEstaPausado()
+comment2.text=\r\n\ Verifica\ que\ cuando\ el\ juego\ est\u00E1\ en\ pausa,\ las\ llamadas\r\n\ a\ {@code\ tick}\ no\ actualicen\ el\ estado\ del\ nivel.\r\n
+comment3.params=
+comment3.target=void\ reiniciarNivelDebeCrearNuevoNivelYReiniciarTiempo()
+comment3.text=\r\n\ Verifica\ que\ al\ reiniciar\ el\ nivel\ se\ cree\ una\ nueva\ instancia\r\n\ de\ {@link\ Nivel}\ con\ el\ tiempo\ reiniciado.\r\n
+comment4.params=
+comment4.target=void\ moverHeladoJugadorDebeDelegarEnNivelCuandoNoEstaPausado()
+comment4.text=\r\n\ Verifica\ que\ los\ m\u00E9todos\ de\ movimiento\ deleguen\ la\ acci\u00F3n\r\n\ al\ nivel\ cuando\ el\ juego\ no\ est\u00E1\ en\ pausa.\r\n
+numComments=5

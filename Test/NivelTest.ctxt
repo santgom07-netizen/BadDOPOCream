@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=NivelTest
+comment0.text=\r\n\ Pruebas\ unitarias\ para\ la\ clase\ Nivel.\r\n\ Eval\u00FAan\ la\ recolecci\u00F3n\ de\ frutas,\ el\ c\u00E1lculo\ de\ puntaje,\r\n\ la\ condici\u00F3n\ de\ victoria\ y\ la\ p\u00E9rdida\ por\ tiempo.\r\n\ Autores\:\ Santiago\ Andres\ Gomez\ Rojas\ y\ Miguel\ Angel\ Sandoval\ \r\n
+comment1.params=
+comment1.target=void\ moverHeladoDebeRecolectarFrutasYSumarPuntos()
+comment1.text=\r\n\ Verifica\ que\ al\ moverse\ sobre\ una\ fruta\ se\ marque\ como\ recolectada\r\n\ y\ se\ sumen\ los\ puntos\ correspondientes\ al\ puntaje\ del\ nivel.\r\n
+comment2.params=
+comment2.target=void\ nivelDebeMarcarseGanadoCuandoSeRecolectanTodasLasFrutas()
+comment2.text=\r\n\ Verifica\ que\ la\ condici\u00F3n\ de\ victoria\ se\ cumpla\ cuando\r\n\ se\ recolectan\ todas\ las\ uvas\ y\ pl\u00E1tanos\ requeridos.\r\n
+comment3.params=
+comment3.target=void\ nivelDebePerderseCuandoSeAgotaElTiempo()
+comment3.text=\r\n\ Verifica\ que\ el\ tiempo\ se\ descuente\ en\ cada\ tick\ y\ que,\r\n\ al\ llegar\ a\ cero\ sin\ haber\ ganado,\ el\ nivel\ se\ marque\ como\ perdido.\r\n
+numComments=4

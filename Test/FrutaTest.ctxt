@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=FrutaTest
+comment0.text=\r\n\ Pruebas\ unitarias\ para\ las\ clases\ de\ frutas\ Uva\ y\ Platano.\r\n\ Verifican\ la\ posici\u00F3n,\ el\ estado\ de\ recolecci\u00F3n\ y\ los\ puntos\ otorgados.\r\n\ Autores\:\ Santiago\ Andres\ Gomez\ Rojas\ y\ Miguel\ Angel\ Sandoval\r\n
+comment1.params=
+comment1.target=void\ uvaDebeInicializarseSinRecolectarYCon50Puntos()
+comment1.text=\r\n\ Verifica\ que\ una\ uva\ se\ cree\ sin\ recolectar\ y\ con\ 50\ puntos.\r\n
+comment2.params=
+comment2.target=void\ platanoDebeInicializarseSinRecolectarYCon100Puntos()
+comment2.text=\r\n\ Verifica\ que\ un\ pl\u00E1tano\ se\ cree\ sin\ recolectar\ y\ con\ 100\ puntos.\r\n
+comment3.params=
+comment3.target=void\ recolectarDebeMarcarFrutaComoRecolectada()
+comment3.text=\r\n\ Verifica\ que\ al\ llamar\ a\ {@code\ recolectar}\ la\ fruta\ queda\ marcada\r\n\ como\ recolectada.\r\n
+numComments=4

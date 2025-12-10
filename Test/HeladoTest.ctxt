@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=HeladoTest
+comment0.text=\r\n\ Pruebas\ unitarias\ para\ la\ clase\ Helado.\r\n\ Eval\u00FAan\ el\ movimiento\ dentro\ de\ los\ l\u00EDmites\ y\ la\ gesti\u00F3n\ del\ sabor.\r\n\ Autores\:\ Santiago\ Andres\ Gomez\ Rojas\ y\ Miguel\ Angel\ Sandoval\r\n
+comment1.params=
+comment1.target=void\ constructorDebeInicializarCamposBasicos()
+comment1.text=\r\n\ Verifica\ que\ el\ helado\ se\ inicialice\ con\ posici\u00F3n,\ sabor\r\n\ y\ direcci\u00F3n\ hacia\ abajo\ por\ defecto.\r\n
+comment2.params=
+comment2.target=void\ moverDebeActualizarPosicionYDireccionDentroDeLimites()
+comment2.text=\r\n\ Verifica\ que\ el\ m\u00E9todo\ {@code\ mover}\ actualice\ la\ posici\u00F3n\r\n\ y\ la\ direcci\u00F3n\ cuando\ el\ movimiento\ es\ v\u00E1lido.\r\n
+comment3.params=
+comment3.target=void\ moverNoDebeSalirDeLimites()
+comment3.text=\r\n\ Verifica\ que\ el\ helado\ no\ salga\ de\ los\ l\u00EDmites\ dados\ por\r\n\ filas\ y\ columnas\ m\u00E1ximas.\r\n
+comment4.params=
+comment4.target=void\ setSaborDebeCambiarElSaborDelHelado()
+comment4.text=\r\n\ Verifica\ que\ el\ sabor\ pueda\ actualizarse\ correctamente.\r\n
+numComments=5
