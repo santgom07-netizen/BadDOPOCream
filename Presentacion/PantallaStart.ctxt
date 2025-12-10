@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=PantallaStart
+comment0.text=\r\n\ Pantalla\ de\ men\u00FA\ principal\ que\ usa\ la\ imagen\ EleccionStart\r\n\ y\ define\ zonas\ clicables\ transparentes\ sobre\ las\ opciones.\r\n\ Autores\:\ Santiago\ Andres\ Gomez\ Rojas\ y\ Miguel\ Angel\ Sandoval\r\n
+comment1.params=ventana
+comment1.target=PantallaStart(VentanaJuego)
+comment1.text=\r\n\ Crea\ la\ pantalla\ de\ men\u00FA\ principal,\r\n\ cargando\ la\ imagen\ de\ fondo\ y\ configurando\ los\ botones\ transparentes.\r\n\r\n\ @param\ ventana\ ventana\ principal\ del\ juego.\r\n
+comment2.params=
+comment2.target=void\ cargarImagen()
+comment2.text=\r\n\ Carga\ la\ imagen\ EleccionStart\ desde\ los\ recursos.\r\n
+comment3.params=
+comment3.target=void\ crearBotonesTransparentes()
+comment3.text=\r\n\ Crea\ los\ botones\ transparentes\ alineados\ con\ las\ opciones\r\n\ PLAY,\ SCORES,\ HELP\ y\ CREDITS\ visibles\ en\ la\ imagen.\r\n
+comment4.params=accion
+comment4.target=javax.swing.JButton\ crearBotonTransparente(java.lang.Runnable)
+comment4.text=\r\n\ Crea\ un\ bot\u00F3n\ totalmente\ transparente\ que\ act\u00FAa\ como\ zona\ clicable\r\n\ sobre\ la\ imagen\ de\ fondo.\r\n\r\n\ @param\ accion\ acci\u00F3n\ a\ ejecutar\ al\ presionar\ el\ bot\u00F3n.\r\n\ @return\ bot\u00F3n\ transparente\ configurado.\r\n
+comment5.params=nombreOpcion
+comment5.target=void\ mostrarMensajeNoImplementado(java.lang.String)
+comment5.text=\r\n\ Muestra\ un\ mensaje\ informando\ que\ una\ opci\u00F3n\ del\ men\u00FA\r\n\ a\u00FAn\ no\ se\ encuentra\ implementada.\r\n\r\n\ @param\ nombreOpcion\ nombre\ de\ la\ opci\u00F3n\ seleccionada.\r\n
+comment6.params=g
+comment6.target=void\ paintComponent(java.awt.Graphics)
+comment6.text=\r\n\ Dibuja\ la\ imagen\ de\ fondo\ y,\ opcionalmente,\ las\ zonas\ clicables\r\n\ utilizadas\ para\ depuraci\u00F3n.\r\n\r\n\ @param\ g\ contexto\ gr\u00E1fico\ utilizado\ para\ pintar\ la\ pantalla.\r\n
+numComments=7

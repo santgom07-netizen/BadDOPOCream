@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Platano
+comment0.text=\r\n\ Representa\ una\ fruta\ del\ tipo\ pl\u00E1tano,\ est\u00E1tica\ en\ el\ tablero.\r\n\ Autores\:\ Santiago\ Andres\ Gomez\ Rojas\ y\ Miguel\ Angel\ Sandoval\r\n
+comment1.params=pos
+comment1.target=Platano(Posicion)
+comment1.text=\r\n\ Crea\ un\ pl\u00E1tano\ en\ la\ posici\u00F3n\ indicada.\r\n\r\n\ @param\ pos\ posici\u00F3n\ inicial\ del\ pl\u00E1tano.\r\n
+comment2.params=
+comment2.target=int\ getPuntos()
+comment2.text=\r\n\ Devuelve\ los\ puntos\ que\ otorga\ el\ pl\u00E1tano\ al\ ser\ recolectado.\r\n\r\n\ @return\ valor\ fijo\ de\ 100\ puntos.\r\n
+numComments=3

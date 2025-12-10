@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ConstructorBotones
+comment0.text=\r\n\ Clase\ utilitaria\ para\ construir\ botones\ con\ estilos\ consistentes\r\n\ en\ la\ interfaz\ gr\u00E1fica\ del\ juego.\r\n\ Autores\:\ Santiago\ Andres\ Gomez\ Rojas\ y\ Miguel\ Angel\ Sandoval\r\n
+comment1.params=texto\ color\ accion
+comment1.target=javax.swing.JButton\ crearBotonOpcion(java.lang.String,\ java.awt.Color,\ java.lang.Runnable)
+comment1.text=\r\n\ Crea\ un\ bot\u00F3n\ gen\u00E9rico\ de\ opci\u00F3n\ con\ texto,\ color\ y\ acci\u00F3n\ asociados.\r\n\r\n\ @param\ texto\ \ texto\ que\ se\ mostrar\u00E1\ en\ el\ bot\u00F3n.\r\n\ @param\ color\ \ color\ de\ fondo\ del\ bot\u00F3n.\r\n\ @param\ accion\ acci\u00F3n\ a\ ejecutar\ cuando\ el\ bot\u00F3n\ sea\ presionado.\r\n\ @return\ instancia\ de\ {@link\ JButton}\ configurada.\r\n
+comment2.params=texto\ color\ accion
+comment2.target=javax.swing.JButton\ crearBotonModalidad(java.lang.String,\ java.awt.Color,\ java.lang.Runnable)
+comment2.text=\r\n\ Crea\ un\ bot\u00F3n\ para\ seleccionar\ modalidad\ de\ juego.\r\n\r\n\ @param\ texto\ \ texto\ del\ bot\u00F3n.\r\n\ @param\ color\ \ color\ de\ fondo\ del\ bot\u00F3n.\r\n\ @param\ accion\ acci\u00F3n\ a\ ejecutar\ al\ presionar\ el\ bot\u00F3n.\r\n\ @return\ bot\u00F3n\ de\ modalidad\ configurado.\r\n
+comment3.params=texto\ color\ accion
+comment3.target=javax.swing.JButton\ crearBotonSabor(java.lang.String,\ java.awt.Color,\ java.lang.Runnable)
+comment3.text=\r\n\ Crea\ un\ bot\u00F3n\ para\ seleccionar\ sabor\ del\ helado.\r\n\r\n\ @param\ texto\ \ texto\ del\ bot\u00F3n.\r\n\ @param\ color\ \ color\ de\ fondo\ del\ bot\u00F3n.\r\n\ @param\ accion\ acci\u00F3n\ a\ ejecutar\ al\ presionar\ el\ bot\u00F3n.\r\n\ @return\ bot\u00F3n\ de\ sabor\ configurado.\r\n
+comment4.params=texto\ color\ accion
+comment4.target=javax.swing.JButton\ crearBotonNivel(java.lang.String,\ java.awt.Color,\ java.lang.Runnable)
+comment4.text=\r\n\ Crea\ un\ bot\u00F3n\ para\ seleccionar\ nivel\ de\ dificultad.\r\n\r\n\ @param\ texto\ \ texto\ del\ bot\u00F3n.\r\n\ @param\ color\ \ color\ de\ fondo\ del\ bot\u00F3n.\r\n\ @param\ accion\ acci\u00F3n\ a\ ejecutar\ al\ presionar\ el\ bot\u00F3n.\r\n\ @return\ bot\u00F3n\ de\ nivel\ configurado.\r\n
+comment5.params=accion
+comment5.target=javax.swing.JButton\ crearBotonAtras(java.lang.Runnable)
+comment5.text=\r\n\ Crea\ un\ bot\u00F3n\ est\u00E1ndar\ para\ regresar\ a\ la\ pantalla\ anterior.\r\n\r\n\ @param\ accion\ acci\u00F3n\ a\ ejecutar\ al\ presionar\ el\ bot\u00F3n.\r\n\ @return\ bot\u00F3n\ configurado\ para\ volver\ atr\u00E1s.\r\n
+numComments=6

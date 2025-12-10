@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Uva
+comment0.text=\r\n\ Representa\ una\ fruta\ del\ tipo\ uva,\ est\u00E1tica\ en\ el\ tablero.\r\n\ Autores\:\ Santiago\ Andres\ Gomez\ Rojas\ y\ Miguel\ Angel\ Sandoval\r\n
+comment1.params=pos
+comment1.target=Uva(Posicion)
+comment1.text=\r\n\ Crea\ una\ uva\ en\ la\ posici\u00F3n\ indicada.\r\n\r\n\ @param\ pos\ posici\u00F3n\ inicial\ de\ la\ uva.\r\n
+comment2.params=
+comment2.target=int\ getPuntos()
+comment2.text=\r\n\ Devuelve\ los\ puntos\ que\ otorga\ la\ uva\ al\ ser\ recolectada.\r\n\r\n\ @return\ valor\ fijo\ de\ 50\ puntos.\r\n
+numComments=3

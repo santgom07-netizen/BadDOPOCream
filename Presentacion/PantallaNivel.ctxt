@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=PantallaNivel
+comment0.text=\r\n\ Pantalla\ para\ la\ selecci\u00F3n\ del\ nivel\ de\ juego\r\n\ (f\u00E1cil,\ medio,\ dif\u00EDcil).\r\n\ Autores\:\ Santiago\ Andres\ Gomez\ Rojas\ y\ Miguel\ Angel\ Sandoval\r\n
+comment1.params=ventana
+comment1.target=PantallaNivel(VentanaJuego)
+comment1.text=\r\n\ Crea\ la\ pantalla\ de\ selecci\u00F3n\ de\ nivel.\r\n\r\n\ @param\ ventana\ ventana\ principal\ que\ contiene\ esta\ pantalla.\r\n
+comment2.params=
+comment2.target=void\ cargarImagenes()
+comment2.text=\r\n\ Carga\ las\ im\u00E1genes\ de\ fondo\ desde\ los\ recursos.\r\n
+comment3.params=
+comment3.target=void\ crearInterfaz()
+comment3.text=\r\n\ Crea\ la\ interfaz\ gr\u00E1fica\ con\ la\ imagen\ superior,\ los\ botones\r\n\ para\ cada\ nivel\ y\ el\ bot\u00F3n\ para\ regresar\ a\ la\ selecci\u00F3n\ de\ sabor.\r\n
+comment4.params=
+comment4.target=javax.swing.JPanel\ crearPanelImagen()
+comment4.text=\r\n\ Crea\ un\ panel\ destinado\ a\ mostrar\ la\ imagen\ de\ cabecera,\r\n\ centrada\ y\ escalada\ manteniendo\ la\ proporci\u00F3n.\r\n\r\n\ @return\ panel\ configurado\ para\ dibujar\ la\ imagen\ superior.\r\n
+comment5.params=g
+comment5.target=void\ paintComponent(java.awt.Graphics)
+comment6.params=
+comment6.target=javax.swing.JPanel\ crearPanelCentro()
+comment6.text=\r\n\ Crea\ el\ panel\ central\ de\ la\ pantalla,\ utilizando\ la\ imagen\ de\ helados\r\n\ como\ patr\u00F3n\ repetido\ de\ fondo\ y\ una\ disposici\u00F3n\ vertical\ para\ los\ componentes.\r\n\r\n\ @return\ panel\ central\ configurado.\r\n
+comment7.params=g
+comment7.target=void\ paintComponent(java.awt.Graphics)
+numComments=8

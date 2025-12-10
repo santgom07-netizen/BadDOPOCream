@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Helado
+comment0.text=\r\n\ Representa\ un\ helado\ dentro\ del\ tablero\ del\ juego.\r\n\ Un\ helado\ tiene\ una\ posici\u00F3n,\ una\ direcci\u00F3n\ de\ movimiento\ actual\ y\ un\ sabor.\r\n\ Autores\:\ Santiago\ Andres\ Gomez\ Rojas\ y\ Miguel\ Angel\ Sandoval\r\n
+comment1.params=posicionInicial\ sabor
+comment1.target=Helado(Posicion,\ java.lang.String)
+comment1.text=\r\n\ Crea\ un\ helado\ con\ una\ posici\u00F3n\ inicial\ y\ un\ sabor\ espec\u00EDfico.\r\n\r\n\ @param\ posicionInicial\ posici\u00F3n\ inicial\ del\ helado\ en\ el\ tablero.\r\n\ @param\ sabor\ \ \ \ \ \ \ \ \ \ \ sabor\ del\ helado\ (por\ ejemplo,\ "vainilla",\ "fresa"\ o\ "chocolate").\r\n
+comment2.params=
+comment2.target=Posicion\ getPosicion()
+comment2.text=\r\n\ Obtiene\ la\ posici\u00F3n\ actual\ del\ helado.\r\n\r\n\ @return\ posici\u00F3n\ del\ helado.\r\n
+comment3.params=
+comment3.target=Direccion\ getDireccion()
+comment3.text=\r\n\ Obtiene\ la\ direcci\u00F3n\ en\ la\ que\ el\ helado\ se\ movi\u00F3\ por\ \u00FAltima\ vez.\r\n\r\n\ @return\ direcci\u00F3n\ actual\ del\ helado.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getSabor()
+comment4.text=\r\n\ Obtiene\ el\ sabor\ actual\ del\ helado.\r\n\r\n\ @return\ sabor\ del\ helado.\r\n
+comment5.params=sabor
+comment5.target=void\ setSabor(java.lang.String)
+comment5.text=\r\n\ Cambia\ el\ sabor\ del\ helado.\r\n\r\n\ @param\ sabor\ nuevo\ sabor\ que\ tendr\u00E1\ el\ helado.\r\n
+comment6.params=dir\ filasMax\ columnasMax
+comment6.target=void\ mover(Direccion,\ int,\ int)
+comment6.text=\r\n\ Mueve\ el\ helado\ una\ celda\ en\ la\ direcci\u00F3n\ indicada,\ siempre\ y\ cuando\r\n\ la\ nueva\ posici\u00F3n\ se\ encuentre\ dentro\ de\ los\ l\u00EDmites\ del\ tablero.\r\n\r\n\ @param\ dir\ \ \ \ \ \ \ \ \ direcci\u00F3n\ hacia\ la\ que\ se\ desea\ mover\ el\ helado.\r\n\ @param\ filasMax\ \ \ \ n\u00FAmero\ m\u00E1ximo\ de\ filas\ permitidas\ en\ el\ tablero.\r\n\ @param\ columnasMax\ n\u00FAmero\ m\u00E1ximo\ de\ columnas\ permitidas\ en\ el\ tablero.\r\n
+numComments=7

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BloqueHielo
+comment0.text=\r\n\ Representa\ un\ bloque\ de\ hielo\ en\ el\ tablero\ del\ juego.\r\n\ Puede\ ser\ destruible\ o\ no,\ seg\u00FAn\ su\ configuraci\u00F3n.\r\n\ Autores\:\ Santiago\ Andres\ Gomez\ Rojas\ y\ Miguel\ Angel\ Sandoval\r\n
+comment1.params=posicion\ destruible
+comment1.target=BloqueHielo(Posicion,\ boolean)
+comment1.text=\r\n\ Crea\ un\ bloque\ de\ hielo\ con\ una\ posici\u00F3n\ y\ una\ propiedad\ de\ destrucci\u00F3n.\r\n\r\n\ @param\ posicion\ \ \ posici\u00F3n\ del\ bloque\ en\ el\ tablero.\r\n\ @param\ destruible\ valor\ que\ indica\ si\ el\ bloque\ puede\ ser\ destruido.\r\n
+comment2.params=
+comment2.target=Posicion\ getPosicion()
+comment2.text=\r\n\ Obtiene\ la\ posici\u00F3n\ del\ bloque\ de\ hielo.\r\n\r\n\ @return\ posici\u00F3n\ del\ bloque.\r\n
+comment3.params=
+comment3.target=boolean\ esDestruible()
+comment3.text=\r\n\ Indica\ si\ el\ bloque\ puede\ ser\ destruido.\r\n\r\n\ @return\ {@code\ true}\ si\ el\ bloque\ es\ destruible,\ {@code\ false}\ en\ caso\ contrario.\r\n
+numComments=4

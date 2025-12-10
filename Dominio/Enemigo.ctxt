@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Enemigo
+comment0.text=\r\n\ Clase\ base\ abstracta\ para\ todos\ los\ enemigos\ del\ juego.\r\n\ Un\ enemigo\ tiene\ una\ posici\u00F3n\ y\ puede\ actualizar\ su\ comportamiento\r\n\ de\ forma\ autom\u00E1tica\ o\ controlada\ por\ el\ jugador.\r\n\ Autores\:\ Santiago\ Andres\ Gomez\ Rojas\ y\ Miguel\ Angel\ Sandoval\r\n
+comment1.params=posicionInicial
+comment1.target=Enemigo(Posicion)
+comment1.text=\r\n\ Crea\ un\ enemigo\ en\ la\ posici\u00F3n\ inicial\ dada.\r\n\r\n\ @param\ posicionInicial\ posici\u00F3n\ inicial\ del\ enemigo.\r\n
+comment2.params=
+comment2.target=Posicion\ getPosicion()
+comment2.text=\r\n\ Obtiene\ la\ posici\u00F3n\ actual\ del\ enemigo.\r\n\r\n\ @return\ posici\u00F3n\ del\ enemigo.\r\n
+comment3.params=nivel
+comment3.target=void\ actualizar(Nivel)
+comment3.text=\r\n\ Actualiza\ el\ estado\ interno\ del\ enemigo\ seg\u00FAn\ su\ IA\r\n\ y\ el\ contexto\ del\ nivel.\r\n\r\n\ @param\ nivel\ nivel\ en\ el\ que\ se\ encuentra\ el\ enemigo.\r\n
+comment4.params=dir\ filasMax\ columnasMax
+comment4.target=void\ moverControlado(Direccion,\ int,\ int)
+comment4.text=\r\n\ Mueve\ al\ enemigo\ una\ celda\ en\ la\ direcci\u00F3n\ indicada,\r\n\ respetando\ los\ l\u00EDmites\ del\ tablero.\r\n\r\n\ @param\ dir\ \ \ \ \ \ \ \ \ direcci\u00F3n\ hacia\ la\ que\ se\ desea\ mover\ al\ enemigo.\r\n\ @param\ filasMax\ \ \ \ n\u00FAmero\ m\u00E1ximo\ de\ filas\ permitidas.\r\n\ @param\ columnasMax\ n\u00FAmero\ m\u00E1ximo\ de\ columnas\ permitidas.\r\n
+comment5.params=helado
+comment5.target=boolean\ tocaHelado(Helado)
+comment5.text=\r\n\ Verifica\ si\ el\ enemigo\ se\ encuentra\ en\ la\ misma\ posici\u00F3n\ que\ el\ helado.\r\n\r\n\ @param\ helado\ helado\ con\ el\ que\ se\ compara\ la\ posici\u00F3n.\r\n\ @return\ {@code\ true}\ si\ el\ enemigo\ y\ el\ helado\ ocupan\ la\ misma\ celda,\r\n\ \ \ \ \ \ \ \ \ {@code\ false}\ en\ caso\ contrario.\r\n
+numComments=6

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Troll
+comment0.text=\r\n\ Enemigo\ del\ tipo\ troll\ que\ patrulla\ el\ per\u00EDmetro\ de\ un\ rect\u00E1ngulo\r\n\ definido\ por\ filas\ y\ columnas\ m\u00EDnimas\ y\ m\u00E1ximas.\r\n\ Autores\:\ Santiago\ Andres\ Gomez\ Rojas\ y\ Miguel\ Angel\ Sandoval\r\n
+comment1.params=posicionInicial\ filaMin\ filaMax\ colMin\ colMax
+comment1.target=Troll(Posicion,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ Crea\ un\ troll\ en\ una\ posici\u00F3n\ inicial\ y\ con\ un\ \u00E1rea\ rectangular\ de\ patrullaje.\r\n\r\n\ @param\ posicionInicial\ posici\u00F3n\ inicial\ del\ troll.\r\n\ @param\ filaMin\ \ \ \ \ \ \ \ \ fila\ m\u00EDnima\ del\ rect\u00E1ngulo\ de\ patrullaje.\r\n\ @param\ filaMax\ \ \ \ \ \ \ \ \ fila\ m\u00E1xima\ del\ rect\u00E1ngulo\ de\ patrullaje.\r\n\ @param\ colMin\ \ \ \ \ \ \ \ \ \ columna\ m\u00EDnima\ del\ rect\u00E1ngulo\ de\ patrullaje.\r\n\ @param\ colMax\ \ \ \ \ \ \ \ \ \ columna\ m\u00E1xima\ del\ rect\u00E1ngulo\ de\ patrullaje.\r\n
+comment2.params=nivel
+comment2.target=void\ actualizar(Nivel)
+comment2.text=\r\n\ Actualiza\ la\ posici\u00F3n\ del\ troll\ siguiendo\ el\ contorno\ del\ rect\u00E1ngulo\r\n\ definido,\ cambiando\ de\ direcci\u00F3n\ cuando\ alcanza\ los\ l\u00EDmites\ y\r\n\ reaccionando\ ante\ bloques\ de\ jugador.\r\n\r\n\ @param\ nivel\ nivel\ en\ el\ que\ se\ encuentra\ el\ troll.\r\n
+comment3.params=nivel\ fila\ col
+comment3.target=boolean\ hayBloqueJugadorEn(Nivel,\ int,\ int)
+comment3.text=\r\n\ Verifica\ si\ existe\ un\ bloque\ de\ hielo\ creado\ por\ el\ jugador\r\n\ en\ la\ posici\u00F3n\ indicada.\r\n\r\n\ @param\ nivel\ nivel\ en\ el\ que\ se\ encuentra\ el\ troll.\r\n\ @param\ fila\ \ fila\ a\ evaluar.\r\n\ @param\ col\ \ \ columna\ a\ evaluar.\r\n\ @return\ {@code\ true}\ si\ hay\ un\ bloque\ de\ jugador\ en\ la\ posici\u00F3n,\ {@code\ false}\ en\ caso\ contrario.\r\n
+comment4.params=
+comment4.target=void\ invertirDireccion()
+comment4.text=\r\n\ Invierte\ la\ direcci\u00F3n\ actual\ del\ troll.\r\n
+numComments=5
